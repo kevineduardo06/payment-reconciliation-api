@@ -38,3 +38,12 @@ GET /reconciliation/daily?date=2026-04-28
 ## Notes for future tasks
 
 This project intentionally stays lightweight and uses in-memory repositories. It still has realistic business rules around idempotency, partial payments, refunds, and invoice status transitions.
+
+
+## Current limitations and future development
+
+This is a personal development prototype, not a production deployment. Repositories currently use in-memory storage. Planned enhancements and estimated work are documented in [ROADMAP.md](ROADMAP.md). No production users or deployments are claimed.
+
+## License
+
+MIT; see [LICENSE](LICENSE).
